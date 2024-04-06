@@ -1,7 +1,7 @@
 public class Championship {
     public static void main(String[] args) {
 
-        int gryffindor = 100;    //gryffindor points
+        int gryffindor = 850;    //gryffindor points
         int ravenclaw = 500;    //ravenclaw points
 
         int pointsMargin = gryffindor-ravenclaw;
