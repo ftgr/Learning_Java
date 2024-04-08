@@ -6,7 +6,7 @@ public class Tip {
         System.out.println("Thank you!");
     
         //Task 2: Call a function that tips the waiter.
-        tipTheWaiter(53.50);
+        tipTheWaiter(bill);
     }
 
 
