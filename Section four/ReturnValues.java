@@ -5,6 +5,8 @@ public class ReturnValues {
 
         String englishAreaExplanation = explainArea("English");
         System.out.println(englishAreaExplanation);
+
+        printArea(3.2, 4.2, calculateArea(3.2, 4.2));
     }
 
     public static double calculateArea(double length, double width) {
@@ -25,8 +27,8 @@ public class ReturnValues {
         }
     }
 
-    // English "Area equals length * width"
-    // French "La surface est egale a la longueur * la largeur"
-    // Spanish "area es igual a largo * ancho"
+    public static void printArea(double heigh, double width, double area) {
+        System.out.println("A rectangle with height " + heigh + " and width " + width + " has an area of " + area);
+    }
 
 }
